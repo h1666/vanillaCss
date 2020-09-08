@@ -1,7 +1,11 @@
+
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Kufam', cursive;
 }
 a .btn{
   border-radius: 4px;
@@ -50,7 +54,7 @@ nav{
 .fa{
   font-size: 30px;
   background-color: blue;
-  
+
 }
 
 .navlinks{
@@ -187,4 +191,38 @@ hr{
   transform: scale(1);
   box-shadow: 2px 0px 20px blue;
 
+}
+.fa{
+  font-size: 12px;
+  background-color: #fff;
+  color:#35A5D8;
+}
+.icons{
+
+  width: 100%;
+}
+.icon{
+  display: flex;
+  justify-content:space-between;
+  width: 70%;
+  list-style: none;
+}
+.icon li{
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  flex-basis: 50%;
+  font-size: 17px;
+  align-items: center;
+
+
+}
+.icon li i{
+  text-align: center;
+}
+span{
+  
+  text-align: center;
+  font-weight: 100;
+  font-size: 14px;
 }
